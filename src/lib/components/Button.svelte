@@ -18,7 +18,7 @@
 			theme === 'light' && [
 				disabled
 					? 'bg-sacramento-green border-white/30 text-white/30'
-					: 'bg-sacramento-green hover:text-sacramento-green border-white text-white hover:bg-white'
+					: 'hover:text-sacramento-green border-white bg-none text-white hover:bg-white'
 			],
 
 		// Primary Dark
@@ -26,7 +26,7 @@
 			theme === 'dark' && [
 				disabled
 					? 'border-black/30 bg-white text-black/30'
-					: 'border-sacramento-green text-sacramento-green hover:bg-sacramento-green bg-white hover:text-white'
+					: 'border-sacramento-green text-sacramento-green hover:bg-sacramento-green bg-none hover:text-white'
 			],
 
 		// Secondary Light

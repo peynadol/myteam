@@ -4,6 +4,7 @@
 	import '@fontsource/livvic/600.css';
 	import '@fontsource/livvic/400.css';
 	import Nav from '$lib/components/Nav.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 
 	let { children } = $props();
 </script>
@@ -12,4 +13,5 @@
 	<Nav />
 
 	{@render children()}
+	<Footer />
 </div>
