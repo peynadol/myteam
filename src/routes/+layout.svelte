@@ -1,7 +1,15 @@
 <script lang="ts">
 	import '../app.css';
+	import '@fontsource/livvic/700.css';
+	import '@fontsource/livvic/600.css';
+	import '@fontsource/livvic/400.css';
+	import Nav from '$lib/components/Nav.svelte';
 
 	let { children } = $props();
 </script>
 
-{@render children()}
+<div class="bg-midnight-green min-h-screen text-white">
+	<Nav />
+
+	{@render children()}
+</div>

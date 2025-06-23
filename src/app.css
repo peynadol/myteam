@@ -1,3 +1,17 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+body {
+  font-family: 'Livvic', sans-serif;
+}
+
+@theme {
+    --color-midnight-green: #034E56;
+    --color-light-coral: #F57E7E;
+    --color-rapture-blue: #78C8C7;
+    --color-police-blue: #2D6269;
+    --color-deep-jungle-green: #004046;
+    --color-sacramento-green: #002F34;
+    --color-dark-green: #002529;
+}
