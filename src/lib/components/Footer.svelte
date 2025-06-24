@@ -1,4 +1,4 @@
-<footer class="bg-sacramento-green px-6 py-16 text-white">
+<footer class="bg-dark-green px-6 py-16 text-white">
 	<div class="mx-auto flex max-w-xl flex-col items-center gap-6 text-center">
 		<!-- Logo -->
 		<img src="/assets/logo.svg" alt="MyTeam logo" class="w-32" />
