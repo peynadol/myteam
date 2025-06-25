@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Button from './Button.svelte';
+	import { toast } from 'svelte-sonner';
 
 	let name = '';
 	let email = '';
@@ -15,6 +16,14 @@
 		companyName = '';
 		title = '';
 		message = '';
+		toast.success('Form submitted successfully!');
+		console.log('Form submitted:', {
+			name,
+			email,
+			companyName,
+			title,
+			message
+		});
 	}
 </script>
 
@@ -51,10 +60,10 @@
 				class="border-0 border-b border-white bg-transparent px-2 py-2 text-white placeholder-white/60 focus:border-white focus:outline-none"
 				rows="4"
 			></textarea>
+			<div class="mt-4">
+				<Button variant="secondary" theme="light" type="submit">submit</Button>
+			</div>
 		</form>
-		<div class="mt-4">
-			<Button variant="secondary" theme="light">submit</Button>
-		</div>
 	</div>
 	<img
 		src="/assets/bg-pattern-contact-2.svg"

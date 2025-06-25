@@ -8,9 +8,11 @@
 	import MobileMenu from '$lib/components/MobileMenu.svelte';
 	let isOpen = false;
 	export let children;
+	import { Toaster } from 'svelte-sonner';
 </script>
 
 <div class="bg-midnight-green min-h-screen text-white">
+	<Toaster position="bottom-right" duration={1000} />
 	<Nav on:open={() => (isOpen = true)} />
 	<MobileMenu {isOpen} close={() => (isOpen = false)} />
 	{@render children()}
