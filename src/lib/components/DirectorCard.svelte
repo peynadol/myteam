@@ -4,7 +4,7 @@
 	export let imageSrc;
 </script>
 
-<div class="bg-sacramento-green relative mx-6 p-6 text-center">
+<div class="bg-sacramento-green relative mx-6 p-6 text-center md:mx-2">
 	<img
 		src={imageSrc}
 		alt={name}

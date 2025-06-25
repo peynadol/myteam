@@ -3,7 +3,7 @@
 	export let message;
 </script>
 
-<div class="bg-sacramento-green relative mx-6 p-6 text-center">
+<div class="bg-sacramento-green relative mx-6 p-6 text-center md:mx-2">
 	<h3 class="text-rapture-blue text-lg font-bold">{name}</h3>
 	<p class="mb-8 text-white italic">{message}</p>
 	<div class="mb-6 flex justify-center gap-4">

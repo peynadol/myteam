@@ -9,13 +9,7 @@
 
 	function handleSubmit(event: Event) {
 		event.preventDefault();
-
-		// Do any client-side validation here
-
-		// Show a toast
-		// e.g. with Melt UI (see step 3)
-
-		// Reset form
+		// show a toast on submission as it's not connected to a backend
 		name = '';
 		email = '';
 		companyName = '';
@@ -25,7 +19,7 @@
 </script>
 
 <div class="relative overflow-hidden pb-20">
-	<div class="mx-6">
+	<div class="mx-6 md:mx-30">
 		<form on:submit={handleSubmit} class="flex flex-col gap-4 bg-none">
 			<input
 				type="text"
