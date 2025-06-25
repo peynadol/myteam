@@ -10,7 +10,7 @@
 		class="pointer-events-none absolute top-0 h-auto -translate-x-1/2 -translate-y-[100px]"
 	/>
 	<h2 class="mt-20 mb-10 text-center text-[32px] font-bold">Meet the directors</h2>
-	<div class="flex flex-col gap-15 md:grid md:grid-cols-2 md:gap-x-0 md:px-16">
+	<div class="flex flex-col gap-15 md:grid md:grid-cols-2 md:gap-x-0 md:px-16 lg:grid-cols-3">
 		<DirectorCard imageSrc="/assets/avatar-nikita.jpg" name="Nikita Marks" title="Founder & CEO" />
 		<DirectorCard
 			imageSrc="/assets/avatar-christian.jpg"

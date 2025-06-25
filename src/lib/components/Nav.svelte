@@ -6,7 +6,9 @@
 	const dispatch = createEventDispatcher();
 </script>
 
-<div class="bg-midnight-green flex items-center justify-between px-6 py-6 md:py-14">
+<div
+	class="bg-midnight-green flex items-center justify-between px-6 py-6 md:py-14 lg:px-36 lg:py-10"
+>
 	<div class="flex items-center gap-6">
 		<a href="/">
 			<img src="/assets/logo.svg" alt="Logo" class="h-8" />

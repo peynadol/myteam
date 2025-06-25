@@ -1,12 +1,14 @@
 <section class="bg-deep-jungle-green">
 	<img src="/assets/bg-pattern-home-4-about-3.svg" alt="" />
-	<h2 class="t mt-6 px-6 text-center text-[32px] leading-9 font-bold md:px-35">
+	<h2
+		class="mt-6 px-6 text-center text-[32px] leading-9 font-bold md:px-35 lg:text-[48px] lg:leading-[56px]"
+	>
 		Delivering real results for top companies. Some of our <span class="text-rapture-blue"
 			>success stories.</span
 		>
 	</h2>
 
-	<div class="mt-20 grid gap-20 px-6 md:grid-cols-1 md:px-20">
+	<div class="mt-20 grid gap-20 px-6 md:grid-cols-1 md:px-20 lg:flex">
 		<div class="relative flex flex-col items-center px-4 text-center">
 			<img
 				src="/assets/icon-quotes.svg"

@@ -2,18 +2,14 @@
 	<div
 		class="mx-auto flex max-w-6xl flex-col items-center gap-10 text-center md:flex-row md:items-start md:justify-between md:px-10 md:text-left"
 	>
-		<!-- Left Column -->
 		<div class="flex flex-col items-center gap-6 md:items-start md:gap-10">
-			<!-- Logo -->
 			<img src="/assets/logo.svg" alt="MyTeam logo" class="w-32" />
 
-			<!-- Navigation -->
 			<nav class="flex gap-6">
 				<a href="/" class="hover:underline">Home</a>
 				<a href="/about" class="hover:underline">About</a>
 			</nav>
 
-			<!-- Social Icons -->
 			<div class="flex gap-4">
 				<img src="/assets/icon-facebook.svg" alt="Facebook" class="h-6 w-6" />
 				<img src="/assets/icon-pinterest.svg" alt="Pinterest" class="h-6 w-6" />
@@ -21,7 +17,6 @@
 			</div>
 		</div>
 
-		<!-- Right Column -->
 		<div class="space-y-2 text-white/80 md:text-right">
 			<p>987 Hillcrest Lane</p>
 			<p>Irvine, CA</p>
